@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+* , ::after , ::before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.sing-in {
+    width: 40%;
+    height: 100%;
+    background-color: #181818 ;
+}
+
+.holder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 260px;
+}
+
+form {
+    width: 100%;
+
+}
+
+
+.full-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    color: #eeeded;
+    margin-bottom: 10px;
+}
+
+.input {
+    height: 35px;
+    width: 90%;
+    border-radius: 6px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: #525252 1px solid;
+    color: #ccc;
+}
+
+.btn {
+    margin-top: 0px;
+    width: 90%;
+    height: 50px;
+    border-radius: 5px;
+    color: rgb(247, 247, 247);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-01 {
+    background-color: #ff7b39;
+    margin-bottom: 30px;
+    height: 45px;
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.sep {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+}
+span {
+    color: #ccc;
+    padding: 0 0 1;
+}
+
+.bar {
+    width: 30%;
+    background-color: #aaa;
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+
+.first {
+    margin-bottom: 10px;
+}
+
+.second {
+    margin-bottom: 16px;
+}
+
+#btn-02 {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 45%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn-02:hover {
+    border: #ff7b39 1px solid;
+    color: #ff7b39;
+    transition: 1s;
+}
+
+p {
+    margin-top: 120px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.term {
+    color: #ff7b39;
+}
+
+.trail {
+    width: 60%;
+    height: 100%;
+    background: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+#btn-03 {
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#btn-03:hover {
+    border: #ff7b39 1px solid;
+    color: #ff7b39;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        font-family: 'Roboto', sans-serif;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        height: 200vh;
+    }
+    .logo{
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    form{
+        width: 100%;
+        padding: 40px;
+    }
+    .sep {
+        width: 100%;
+    }
+    #btn-02{
+        width: 85%;
+        height: 40px;
+    }
+    p {
+        margin-top: 20px;
+    }
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .holder{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sing-in {
+        width: 100%;
+        background-color: #181818 ;
+        height: 50% ;
+    }
+    
+    .trail {
+        width: 100%;
+        height: 50%;
+        background: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #btn-03 {
+        width: 100%;
+    }
+    h1 {
+        font-size: 30px;
+
+    }
+}
+@media only screen and (max-width: 1280px) and (min-width: 800px) {
+    .sep {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+    }
+    #btn-02 {
+        background-color: transparent;
+        border: 1px solid white;
+        width: 70%;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .sing-in {
+        width: 50%;
+        height: 100%;
+        background-color: #181818 ;
+    }
+    
+    .trail {
+        width: 50%;
+        background: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 100%;
+    }
+    
+    #btn-03 {
+        width: 90%;
+    }
+    h1 {
+        font-size: 50px;
+    }
+  }
